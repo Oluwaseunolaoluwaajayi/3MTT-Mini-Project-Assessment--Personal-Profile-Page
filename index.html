@@ -3,67 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>3MTT-Mini-Project-Assessment: Personal Profile Page</title>
-
+    <title>3MTT Mini-Project: Personal Profile Page</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <div class="genLayout">
-          <h1>My Profile Page</h1>
-          <a href="#about">About Me</a>
-          <a href="#hobbies">Hobbies</a>
-          <a href="#contact">Contact</a>
+      <nav class="genLayout">
+        <h1>My Profile Page</h1>
+        <div class="nav-links">
+          <a href="#about"><i class="fa fa-user"></i> About Me</a>
+          <a href="#hobbies"><i class="fa fa-heart"></i> Hobbies</a>
+          <a href="#contact"><i class="fa fa-envelope"></i> Contact</a>
         </div>
       </nav>
     </header>
 
-    <section>
-      <div>
-        <h4>Bio Section</h4>
-        <p>
-          I am Oluwaseun Ajayi, a dedicated learner and Computer Science
-          graduate passionate about web development. Currently, I am a 3MTT
-          Fellow studying software development, Data Science/Machine Learning. I
-          am eager to collaborate, learn, and refine my skills, always seeking
-          growth and improvement.
-        </p>
-      </div>
-      <div>
-        <img src="./image/TA2.jpg" alt="Oluwaseun Ajayi" />
-      </div>
-    </section>
+    <main>
+      <section id="about" class="section">
+        <h4>About Me</h4>
+        <div class="bio-container">
+          <img src="image/TA2.jpg" alt="Oluwaseun Ajayi" class="profile-img" />
+          <p>
+            I am Oluwaseun Ajayi, a Computer Science graduate and 3MTT Fellow
+            passionate about web development and continuous learning. I’m
+            currently honing my skills in software development and Data
+            Science/Machine Learning, with a focus on building impactful
+            projects. I thrive on collaboration, problem-solving, and growth.
+          </p>
+        </div>
+      </section>
 
-    <section>
-      <h4>My Three Hobbies of Interest</h4>
-      <ul>
-        <li>
-          <strong>Coding:</strong> I love building web projects and
-          experimenting with HTML, CSS, and JavaScript.
-        </li>
-        <li>
-          <strong>Reading:</strong> I enjoy exploring books on technology,
-          self-improvement, and science fiction.
-        </li>
-        <li>
-          <strong>Problem-Solving:</strong> Tackling puzzles, algorithms, and
-          data science challenges keeps me engaged.
-        </li>
-      </ul>
-    </section>
+      <section id="hobbies" class="section">
+        <h4>My Hobbies</h4>
+        <ul class="hobby-list">
+          <li>
+            <i class="fa fa-code"></i> <strong>Coding:</strong> Crafting web
+            projects with HTML, CSS, and JavaScript is my creative outlet.
+          </li>
+          <li>
+            <i class="fa fa-book"></i> <strong>Reading:</strong> I dive into
+            tech books, self-improvement guides, and sci-fi adventures.
+          </li>
+          <li>
+            <i class="fa fa-puzzle-piece"></i> <strong>Problem-Solving:</strong>
+            I enjoy cracking puzzles, algorithms, and data challenges.
+          </li>
+        </ul>
+      </section>
+    </main>
 
-    <footer>
-      <h4>Contact Details</h4>
+    <footer id="contact" class="section">
+      <h4>Contact Me</h4>
       <p>
-        Email: <a href="#">oluwaseun.ajayi@example.com</a><br />
-        Twitter: <a href="#" target="_blank">@Ojogbonn</a><br />
-        GitHub: <a href="#" target="_blank">@Oluwaseunolaoluwaajayi</a><br />
-        LinkedIn:
-        <a href="#" target="_blank">/ajayi-oluwaseun-olaoluwa-98436b11a/</a>
+        <i class="fa fa-envelope"></i> Email:
+        <a href="mailto:oluwaseunajayi@example.com"
+          >oluwaseunajayi@example.com</a
+        ><br />
+        <i class="fa fa-twitter"></i> Twitter:
+        <a href="https://twitter.com/Ojogbonn" target="_blank">@Ojogbonn</a
+        ><br />
+        <i class="fa fa-github"></i> GitHub:
+        <a href="https://github.com/Oluwaseunolaoluwaajayi" target="_blank"
+          >@Oluwaseunolaoluwaajayi</a
+        ><br />
+        <i class="fa fa-linkedin"></i> LinkedIn:
+        <a
+          href="https://linkedin.com/in/ajayi-oluwaseun-olaoluwa-98436b11a"
+          target="_blank"
+          >/ajayi-oluwaseun-olaoluwa-98436b11a/</a
+        >
       </p>
     </footer>
   </body>
