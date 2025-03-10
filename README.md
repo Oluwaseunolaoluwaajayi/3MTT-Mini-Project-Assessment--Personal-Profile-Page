@@ -1,39 +1,23 @@
-Personal Profile Page
-This is a simple, responsive personal profile webpage built as part of the 3MTT Mini-Project Assessment. The page showcases my bio, hobbies, and contact information, reflecting my passion for web development and continuous learning.
-Table of Contents
-Overview (#overview)
+# Personal Profile Page
 
-Features (#features)
+A responsive personal profile webpage built for the 3MTT Mini-Project Assessment, showcasing my bio, hobbies, and contact details with a focus on web development skills.
 
-Technologies Used (#technologies-used)
+## Live Demo
+[View Live](https://oluwaseunolaoluwaajayi.github.io/3MTT-Mini-Project-Assessment--Personal-Profile-Page/)
 
-Setup (#setup)
+## Features
+- **Interactive Navigation**: Smooth scrolling to About, Hobbies, and Contact sections.
+- **Responsive Design**: Adapts to mobile and desktop screens with CSS media queries.
+- **Styled Layout**: Clean design with custom CSS and Font Awesome icons.
+- **Contact Links**: Functional links to email, Twitter, GitHub, and LinkedIn.
 
-File Structure (#file-structure)
+## Technologies Used
+- **HTML5**: Semantic structure.
+- **CSS3**: Custom styling and responsiveness.
+- **Font Awesome**: Icons for visual enhancement.
 
-Usage (#usage)
+## Setup
+1. Clone the repo: `git clone https://github.com/Oluwaseunolaoluwaajayi/3MTT-Mini-Project-Assessment--Personal-Profile-Page.git`
+2. Open `index.html` in a browser.
 
-Contributing (#contributing)
-
-Contact (#contact)
-
-Overview
-This project is a static HTML webpage designed to serve as a personal profile. It includes sections for a biography, hobbies, and contact details, styled minimally with an external Font Awesome CDN for icons. The page is structured for easy navigation and readability.
-Features
-Navigation Bar: Links to About Me, Hobbies, and Contact sections.
-
-Bio Section: A brief introduction with an accompanying profile image.
-
-Hobbies List: Highlights three key interests with descriptions.
-
-Contact Footer: Links to email, Twitter, GitHub, and LinkedIn profiles.
-
-Responsive Design: Adapts to various screen sizes using meta viewport settings.
-
-Technologies Used
-HTML5: Core structure and content of the webpage.
-
-Font Awesome 4.7.0: External CSS library for icons (via CDN).
-
-Basic CSS: Inline and external styling (to be added in future iterations).
-
+## File Structure
